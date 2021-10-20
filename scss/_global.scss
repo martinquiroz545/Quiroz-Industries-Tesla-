@@ -1,0 +1,133 @@
+/*-----VARIABLES-----*/
+
+$fuente: "Montserrat", sans-serif;
+$color-primario: white;
+$color-secundario: black;
+
+/* Se resetea el CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: $fuente;
+}
+
+/* Se agrega la fuente "Montserrat" a todo el documento  */
+html,
+.buttonLogin {
+  font-family: $fuente;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.15) 0%,
+    rgba(254, 254, 254, 1) 4%
+  );
+}
+/* Se agrega margenes de 2 rem a la izquierda y derecha de la página para que esté centrada */
+body {
+  margin: 0 3rem;
+}
+p {
+  margin: 0;
+  line-height: 2rem;
+}
+
+main {
+  margin: 1rem auto !important;
+}
+
+/* TITULOS */
+h1 {
+  margin: 2rem 0;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Estilos a los títulos */
+.titulos,
+.titulos a {
+  text-align: center;
+  color: $color-secundario;
+  font-size: 2rem !important;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+}
+/* CSS al botón login de la barra de navegación */
+
+#tituloModels {
+  margin-bottom: 0rem;
+}
+.buttonLogin {
+  background-color: black;
+  color: $color-primario;
+  height: 2.5rem;
+  width: 7.5rem;
+  border: unset;
+  border-radius: 0.6rem;
+  font-size: 1.3rem;
+}
+
+/* CSS al id"Logo" */
+#logo {
+  width: 12rem;
+  display: block;
+  margin: 2rem auto;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/*----------------------FOOTER-----------------------*/
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.footer__text {
+  font-size: 1rem;
+}
+
+.footer__contact {
+  width: max-content;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__button {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonLogin3 {
+  background-color: $color-secundario;
+  color: $color-primario;
+  height: 2rem;
+  width: 6rem;
+  border: unset;
+  border-radius: 0.6rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.footer__socialmedias {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: max-content;
+}
+.socialMediaIcon {
+  margin-left: 2rem;
+  font-size: 2rem;
+}

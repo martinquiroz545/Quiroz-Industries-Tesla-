@@ -1,0 +1,62 @@
+/*-----------------FEATURES*--------------------------------------/
+/* Estilo a la tabla */
+table {
+  border: 3px none;
+}
+// Se usa mixin
+@mixin sizes($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+tr {
+  border: 1px solid;
+  @include sizes(4rem, 10rem);
+}
+td {
+  border: 1px none;
+  @include sizes(2rem, 20rem);
+}
+th {
+  background-color: gray;
+  color: $color-primario;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.featurestable--black {
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+.featurestable {
+  margin: 1rem auto;
+  margin-bottom: 2rem;
+  width: 85%;
+}
+
+.tabletext {
+  margin: 0 10rem 2rem 10rem;
+  text-align: justify;
+}
+.youtubevideo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.youtubevideo__text {
+  h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+
+.youtubevideo__text {
+  margin: 5rem 8rem;
+  width: max-content;
+  text-align: justify;
+}
+.youtubevideo__video {
+  margin: 4rem;
+  width: 250rem;
+  height: 100%;
+}

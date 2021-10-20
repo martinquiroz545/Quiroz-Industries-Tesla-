@@ -1,0 +1,53 @@
+/* --------------------------COMMUNITY-------------------------------*/
+
+.communityGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 100%;
+}
+
+#imageCommunity {
+  height: 40rem;
+  margin: 2rem;
+  background-image: url(/img/ElonMusk.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#textCo {
+  text-align: justify;
+  margin: 0 3rem;
+}
+
+.customers {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.comUsers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-primary {
+  background-color: $color-secundario;
+  border-radius: 0.5rem;
+  border: solid $color-secundario;
+}
+
+// Se declara un map
+$customers: (
+  customer1: #c7d2d6,
+  customer2: #9bc8d9,
+  customer3: #53b2d4,
+);
+
+@each $cus, $color in $customers {
+  .#{$cus} {
+    color: $color;
+    font-size: 7rem;
+    margin-top: 1rem;
+  }
+}

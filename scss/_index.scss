@@ -1,0 +1,128 @@
+/* ---------------------INDEX-------------------------------------*/
+/* Estilo al texto dentro de la foto principal de tesla  */
+
+/* -------NAV BAR------------ */
+
+/* CSS  a la barra de navegación */
+
+nav {
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center !important;
+    height: max-content;
+  }
+}
+
+#navIndex {
+  display: flex;
+  flex-direction: column;
+}
+/* Se quitan estilos a enlaces de la barra de navación */
+.navBar {
+  a {
+    font-size: 1.5rem;
+    color: $color-secundario;
+    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 1rem;
+    transition: all 0.7s;
+    align-items: center;
+    height: max-content;
+  }
+}
+
+a:hover,
+.titulos a:hover {
+  line-height: 2.5rem;
+  background-color: black;
+  color: $color-primario;
+  border-radius: 0.6rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Imagen de fondo "Carro Tesla" */
+
+.bCarousel {
+  border-radius: 0.5rem;
+}
+.boximage {
+  height: 25rem;
+  background-image: url(/img/Tesla.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5rem;
+  position: relative;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+/* Boton dentro de la imagen tesla de index */
+.buttonLogin2 {
+  margin-top: 1rem;
+  background-color: $color-primario;
+  color: $color-secundario;
+  height: 3.5rem;
+  width: 12rem;
+  border: unset;
+  border-radius: 0.6rem;
+  font-size: 1.5rem;
+}
+/* Div de texto dentro de la imagen de tesla */
+.boximage__texto {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: max-content;
+}
+
+.boximage__texto {
+  p {
+    font-size: 2rem;
+  }
+}
+
+/* .inside {
+    display: flex;
+    align-items: center;
+    margin-top: 8rem;
+    padding: 2rem;
+    width: 100%;
+  } */
+
+/*---Grid 2 index (imagen y texto de interior de un tesla)*/
+.gridindex2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.gridindex2__imagen {
+  height: 20rem;
+  width: auto;
+  background-image: url(/img/TeslaInterior.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gridindex2__texto {
+  margin: 10rem 4rem;
+  text-align: justify;
+}
+/* GRID apliado a los 4 Párrafos del index debajo de la imagen principal */
+
+.gridindex1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 3rem;
+}
+
+.gridindex1__hijo {
+  p {
+    text-align: justify;
+    padding: 3rem;
+  }
+}

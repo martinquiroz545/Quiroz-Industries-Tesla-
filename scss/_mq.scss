@@ -1,0 +1,338 @@
+/* RESPONSIVE Se usaran 1000px, 768px y 480 px */
+
+/* -------------Media para 1000px--------------------- */
+@media (max-width: 1000px) {
+  /* TITULOS */
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+
+  body {
+    margin: 0 1.5rem;
+  }
+
+  .boxImage {
+    height: 30rem;
+  }
+  /*Texto dentro de imagen principal tesla */
+  .boxImageTexto p {
+    font-size: 1rem;
+  }
+
+  .buttonLogin2 {
+    margin-top: 1rem;
+    background-color: white;
+    color: black;
+    height: 2rem;
+    width: 6rem;
+    border: unset;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+  }
+
+  .inside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 16rem;
+  }
+
+  #imageIndex {
+    height: 15rem;
+    width: auto;
+    background-image: url(/img/TeslaInterior.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  /* NavBar */
+  .buttonLogin {
+    background-color: black;
+    color: white;
+    height: 1.5rem;
+    width: 3rem;
+    border: unset;
+    border-radius: 0.6rem;
+    font-size: 0.8rem;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navBar a {
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0;
+  }
+
+  a:hover,
+  .titulos a:hover {
+    line-height: 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.6rem;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .titulos,
+  .titulos a {
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* FOOTER */
+  .butttonFooter {
+    display: flex;
+    flex-direction: row;
+  }
+  .footerText p {
+    font-size: 0.8rem;
+  }
+  .socialMediaIcon {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .buttonLogin3 {
+    height: 1rem;
+    width: 4rem;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    text-align: center;
+  }
+  /* FEATURES */
+  th {
+    font-size: 1rem;
+  }
+  td {
+    font-size: 0.7rem;
+  }
+  .tableText {
+    margin: 0 4rem 2rem 4rem;
+    text-align: justify;
+  }
+  .youtubeVideo {
+    flex-direction: column;
+  }
+  .youtubeVideo_text {
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .youtubeVideo_video {
+    margin-top: 1rem;
+  }
+
+  /* PRICING */
+  .textBanks {
+    margin: 2rem 2rem;
+  }
+
+  /* COMMUNITY  */
+  #imageCommunity {
+    height: 25rem;
+  }
+}
+/* --------------------MEDIA PARA 600px-------------------*/
+@media (max-width: 600px) {
+  body {
+    margin: 0 1rem;
+  }
+
+  .boxImage {
+    height: 15rem;
+  }
+
+  /* Texto dentro de imagen principal tesla */
+  .boxImageTexto p {
+    font-size: 0.7rem;
+  }
+
+  .buttonLogin2 {
+    margin-top: 1rem;
+    background-color: white;
+    color: black;
+    height: 1rem;
+    width: 4rem;
+    border: unset;
+    border-radius: 0.6rem;
+    font-size: 0.5rem;
+  }
+  .buttonLogin {
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+    height: 1.5rem;
+    width: 3rem;
+    border: unset;
+    border-radius: 0.6rem;
+    font-size: 0.8rem;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-decoration: none;
+    width: 100%;
+  }
+  .navBar a {
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0;
+  }
+
+  a:hover,
+  .titulos a:hover {
+    line-height: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    text-decoration: none;
+    list-style: none;
+    width: 100vh;
+  }
+
+  .titulos,
+  .titulos a {
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .gridPadre {
+    display: flex;
+    flex-direction: column;
+  }
+  /* CUADRICULA INTERIOR DEL TESLA */
+  .inside {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+  }
+
+  #imageIndex {
+    height: 20rem;
+    width: 85%;
+    background-image: url(/img/TeslaInterior.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  .textInside {
+    height: max-content;
+    margin: 2rem 4rem;
+  }
+
+  /* FOOTER  */
+  .buttonFooter {
+    flex-direction: column;
+  }
+  .footerText {
+    width: 40%;
+  }
+
+  /* FEATURES */
+  th,
+  td {
+    font-size: 0.7rem;
+  }
+
+  .tableText {
+    margin: 1rem 1rem;
+  }
+  .youtubeVideo_text {
+    margin: 1rem 1rem;
+  }
+
+  .youtubeVideo_video {
+    margin: 20 10rem;
+    width: 90%;
+    height: 100%;
+    height: max-content;
+
+    background-position: center;
+  }
+
+  .youtubeVideo_video iframe {
+    height: 20rem;
+    width: 100%;
+    height: max-content;
+  }
+
+  /* PRICING */
+  .bancosImagenes {
+    font-size: 2rem;
+  }
+
+  .listPricing {
+    font-size: 0.8rem;
+  }
+  /* COMMUNITY */
+  .communityGrid {
+    display: flex;
+    flex-direction: column;
+  }
+  #imageCommunity {
+    width: 20rem;
+  }
+
+  #textCo {
+    margin: 1rem 1rem;
+  }
+  .customerPhoto {
+    font-size: 3.5rem;
+  }
+
+  /* SUPPORT */
+
+  .textLabel {
+    font-size: 1rem;
+  }
+  .m {
+    font-size: 1rem;
+    margin: 1rem 0.7rem;
+  }
+
+  .buttonSubmit {
+    display: flex;
+    justify-content: space-around;
+  }
+  .buttonSubmitB {
+    font-size: 1rem;
+    margin: 2rem 0;
+    width: 4rem;
+  }
+
+  .maps {
+    margin: 1rem auto;
+    width: 90%;
+    height: 100%;
+  }
+  input,
+  .select {
+    border-radius: 0.7rem;
+  }
+}

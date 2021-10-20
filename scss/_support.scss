@@ -1,0 +1,78 @@
+/* -----------------------------SUPPORT----------------------------------------- */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 20%;
+  width: 60%;
+}
+
+legend {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.textLabel {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.maleFemale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 1.5rem;
+}
+
+.buttonM {
+  border: 0px;
+  width: 100%;
+  height: 2rem;
+}
+.m {
+  margin: 1rem 2rem;
+}
+#genderM {
+  height: 2rem;
+}
+input,
+.select {
+  height: 2.5rem;
+  border: $color-secundario 0.15rem solid;
+  border-radius: 1rem;
+}
+option {
+  font-size: 1rem;
+  text-align: center;
+}
+::placeholder {
+  font-size: 1rem;
+  text-align: center;
+}
+
+#message {
+  margin-bottom: 2rem;
+}
+
+.buttonSubmit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.buttonSubmitB {
+  background-color: $color-secundario;
+  color: $color-primario;
+  height: 2.5rem;
+  width: 7.5rem;
+  border: unset;
+  border-radius: 0.6rem;
+  font-size: 1.3rem;
+  margin: 0 1rem;
+}
+
+.maps {
+  margin: 2rem 0;
+}
