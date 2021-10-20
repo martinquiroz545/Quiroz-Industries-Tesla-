@@ -356,7 +356,7 @@ th {
 #imageCommunity {
   height: 40rem;
   margin: 2rem;
-  background-image: url(/img/ElonMusk.jpg);
+  background-image: url(../img/ElonMusk.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -570,7 +570,7 @@ option {
   }
 
   a:hover,
-  .titulos a:hover {
+.titulos a:hover {
     line-height: 1.5rem;
     background-color: black;
     color: white;
@@ -580,7 +580,7 @@ option {
   }
 
   .titulos,
-  .titulos a {
+.titulos a {
     text-align: center;
     color: black;
     font-size: 1rem;
@@ -706,7 +706,7 @@ option {
   }
 
   a:hover,
-  .titulos a:hover {
+.titulos a:hover {
     line-height: 1rem;
     background-color: black;
     color: white;
@@ -717,7 +717,7 @@ option {
   }
 
   .titulos,
-  .titulos a {
+.titulos a {
     text-align: center;
     color: black;
     font-size: 1rem;
@@ -762,7 +762,7 @@ option {
 
   /* FEATURES */
   th,
-  td {
+td {
     font-size: 0.7rem;
   }
 
@@ -843,7 +843,7 @@ option {
   }
 
   input,
-  .select {
+.select {
     border-radius: 0.7rem;
   }
 }
