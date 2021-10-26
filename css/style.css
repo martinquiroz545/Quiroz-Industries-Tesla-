@@ -400,6 +400,10 @@ th {
   border: solid black;
 }
 
+.btn-primary:hover {
+  line-height: inherit;
+}
+
 .customer1 {
   color: #c7d2d6;
   font-size: 7rem;

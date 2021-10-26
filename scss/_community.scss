@@ -37,6 +37,10 @@
   border: solid $color-secundario;
 }
 
+.btn-primary:hover {
+  line-height: inherit;
+}
+
 // Se declara un map
 $customers: (
   customer1: #c7d2d6,
