@@ -75,7 +75,7 @@ h3 {
 
 /* CSS al id"Logo" */
 #logo {
-  width: 12rem;
+  width: 9rem;
   display: block;
   margin: 2rem auto;
 }
@@ -227,13 +227,6 @@ a:hover,
   font-size: 2rem;
 }
 
-/* .inside {
-    display: flex;
-    align-items: center;
-    margin-top: 8rem;
-    padding: 2rem;
-    width: 100%;
-  } */
 /*---Grid 2 index (imagen y texto de interior de un tesla)*/
 .gridindex2 {
   display: grid;
