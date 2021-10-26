@@ -325,6 +325,9 @@ th {
 }
 
 /* --------------------PRICING-------------------------------- */
+.listPricing {
+  list-style-image: url(/img/checked.png);
+}
 .listPricing li {
   margin-bottom: 0.5rem;
 }
@@ -413,6 +416,17 @@ th {
   color: #53b2d4;
   font-size: 7rem;
   margin-top: 1rem;
+}
+
+.money {
+  width: 96%;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+#money__image {
+  width: 100%;
+  height: auto;
 }
 
 /* -----------------------------SUPPORT----------------------------------------- */
