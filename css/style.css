@@ -326,7 +326,7 @@ th {
 
 /* --------------------PRICING-------------------------------- */
 .listPricing {
-  list-style-image: url(https://i.postimg.cc/BvvgF7Br/checked.png);
+  list-style-image: url(../img/checked.png);
 }
 .listPricing li {
   margin-bottom: 0.5rem;
