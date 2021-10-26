@@ -131,6 +131,23 @@ footer {
   font-size: 2rem;
 }
 
+.error {
+  display: block;
+  margin: 30rem;
+  border: green 5px solid;
+  padding: 2rem 0;
+}
+.error p {
+  border: black;
+  color: green;
+  font-weight: 600;
+}
+.error a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+
 /* ---------------------INDEX-------------------------------------*/
 /* Estilo al texto dentro de la foto principal de tesla  */
 /* -------NAV BAR------------ */
